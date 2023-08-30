@@ -103,7 +103,6 @@ ul li{
 .sec2{
     margin-top: 90px;
     width: 100%;
-    height: max-content;
     display: flex;
 }
 .sec2-img{
@@ -114,7 +113,7 @@ ul li{
 }
 .sec2-img img{
     max-width: 100%;
-    max-height:max-content;
+    height: 200px;
 }
 .sec2-img .font{
     margin-left: 50px;
