@@ -101,7 +101,7 @@ ul li{
     box-shadow: 0 3px 6px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 .sec2{
-    margin-top: 90px;
+    margin-top: 80px;
     width: 100%;
     display: flex;
 }
@@ -113,7 +113,7 @@ ul li{
 }
 .sec2-img img{
     max-width: 100%;
-    height: 200px;
+    height: 320px;
 }
 .sec2-img .font{
     margin-left: 50px;
@@ -134,6 +134,25 @@ ul li{
     color: #6c757d;
     font-size: 26px;
 }
+
+/* display card */
+.card-container{
+    margin-top:80px ;
+    display: flex;
+}
+.card{
+    flex-basis: 25%;
+    max-width: 100%;
+    height: 350px;
+    position: relative;
+    background: var(--tri, #EDEDEA);
+    justify-content: space-between;
+    margin: 1px;
+    display: flex;
+}
+
+
+
 /* mobile design */
 @media screen and (max-width:700px) {
     *{
