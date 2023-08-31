@@ -285,6 +285,8 @@ ul li{
     }
     .card{
         overflow: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: mandatory;
         flex-basis: 49.7%;
         margin: 1px;
         flex-shrink: 0;
