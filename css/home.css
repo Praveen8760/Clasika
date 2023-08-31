@@ -288,7 +288,7 @@ ul li{
         scroll-behavior: smooth;
         scroll-snap-type: mandatory;
         flex-basis: 49.7%;
-        margin: 1px;
+        margin: 2px;
         flex-shrink: 0;
         height: 250px;
     }
