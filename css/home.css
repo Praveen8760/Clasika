@@ -7,6 +7,14 @@
 }
 body{
     overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #2f2f2f;
+    border-radius: 16px;
 }
 .navbar{
     padding-top:10px;
@@ -249,7 +257,7 @@ div a{
     margin-top: 30px;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 500px;
     overflow-x: hidden;
 }
 .scroll-element img{
@@ -544,13 +552,7 @@ div a{
         border-radius: 10px;
         min-height: 300px;
     }
-    .footer__nav > * {
-        flex: 1;
-    }
-    .nav__item--extra {
-        flex-grow: 1;
-        background-color: transparent;
-    }
+
     .footer__logo{
         font-size: 23px;
     }

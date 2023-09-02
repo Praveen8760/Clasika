@@ -6,8 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/home.css">
 
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
 </head>
 <body>
+    <script>
+        AOS.init();
+    </script>
     <nav class="navbar">
         <div class="icon-holder">
             <img src="/Clasika/assts/icon.png" alt="icon" class="icon">
@@ -27,8 +35,8 @@
             </button>
         </div>
     </nav>
-    <header class="header">
-        <div class="header-text font">
+    <header class="header" data-aos="fade-left">
+        <div class="header-text">
             <p class="header-subtitle">
                 OFFER FOR BEST INTERIOR
             </p>
@@ -61,11 +69,11 @@
 
     <!-- world award -->
     <main class="sec2">
-        <section class="sec2-img">
+        <section class="sec2-img" data-aos="fade-down" data-aos-duration="2000">
             <p class="header-title font">An aesthetic room is given harmony</p>
             <img src="assts/kitchen .jpg" alt="" srcset="">
         </section>
-        <section class="sec2-desc">
+        <section class="sec2-desc" data-aos="fade-up" data-aos-duration="2000">
             <p class="sec2-desc-tit font">WORLD AWARD</p>
             <span class="font">Classika Has been established since 2005 until now we have handled more than 500 thousand Customers who wants their home equipment and furniture to be beautiful with sufficient experience.We have also won 2 world awards from world awards.We hava also won trust in various country around the world</span>
         </section>
@@ -73,28 +81,28 @@
 
     <!-- display card -->
     <main class="card-area">
-        <div class="card card-1">
+        <div class="card card-1" data-aos="fade-down-right" data-aos-duration="1500">
             <img src="assts/bedroom.jpg" alt="" class="card-img">
             <div class="card-txt font">
                 <p class="txt-rot card-font">BEDROOM  SETUP</p>
                 <p class="card-sub-txt card-font">01</p>
             </div>
         </div>
-        <div class="card card-2">
+        <div class="card card-2" data-aos="fade-down-right" data-aos-duration="1500">
             <img src="assts/kitchen .jpg" alt="" class="card-img">
             <div class="card-txt font">
                 <p class="txt-rot card-font">KICHEN SETUP</p>
                 <p class="card-sub-txt card-font">02</p>
             </div>
         </div>
-        <div class="card card-3">
+        <div class="card card-3" data-aos="fade-down-left" data-aos-duration="1500">
             <img src="assts/dinning2.jpg" alt="" class="card-img">
             <div class="card-txt font">
                 <span class="txt-rot card-font">DINNING ROOM SETUP</span>
                 <p class="card-sub-txt card-font">03</p>
             </div>
         </div>
-        <div class="card card-4">
+        <div class="card card-4" data-aos="fade-down" data-aos-duration="1500">
             <img src="assts/living room.jpg" alt="" class="card-img">
             <div class="card-txt font">
                 <p class="txt-rot card-font">LIVING ROOM SETUP</p>
@@ -105,10 +113,10 @@
 
     <!-- section-3 gallery-->
     <main class="sec3">
-        <div class="sec3-head font">
+        <div class="sec3-head font" data-aos="zoom-in" data-aos-duration="500">
             <h1>Modern Clasic</h1>
         </div>
-        <div class="sec3-cont font">
+        <div class="sec3-cont font" data-aos="zoom-in" data-aos-duration="500">
             <h1>Luxury decor to create comfort in our home</h1>
             <div class="sec3-cont-desc">
                 <div>With our passiopn for extraordinary room solution and our uncompromising quality awareness of craftmanship,We create functional ones.
@@ -122,7 +130,7 @@
             </div>
         </div>
     </main>
-    <div class="parent">
+    <div class="parent" data-aos="fade-left">
         <div class="scroll-element primary">
             <img src="assts/living room.jpg" alt="" class="gall-img img1">
             <img src="assts/bedroom.jpg" alt="" class="gall-img img2">
@@ -139,7 +147,7 @@
             <img src="assts/living room.jpg" alt="" class="gall-img img4">
         </div>
     </div>
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up">
         <div class="footer__addr">
           <h3 class="footer__logo">Lets</h3>
           <h1 class="footer__logo">Get in touch</h1>
