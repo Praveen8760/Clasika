@@ -297,6 +297,107 @@ div a{
         left:0%
     }
 }
+.footer {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #EDEDED;
+    border-top: 1px solid #e5e5e5;
+} 
+.footer > * {
+    flex:  1 100%;
+}
+.footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    background-color:transparent;
+}
+.footer__logo {
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+}
+  
+.footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: transparent;
+}
+  
+.nav__title {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: transparent   ;
+}
+  
+.footer address {
+    font-style: normal;
+    color: #999;
+    background-color: transparent   ;
+}
+  
+.footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color:#252424;
+    border-radius: 100px;
+    color: #fff;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+  
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    background-color: transparent;
+}
+  
+.footer li {
+    line-height: 2em;
+    background-color: transparent;
+}
+  
+.footer a {
+    text-decoration: none;
+}
+  
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+}
+.footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.nav__ul a {
+    color: #6c757d;
+    background-color: transparent;
+}
+.nav__ul--extra {
+    column-count: 1;
+    column-gap: 1.25em;
+    background-color: transparent;
+}
+.legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+    background-color: transparent;
+}
+.legal__links {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+} 
 /* mobile design */
 @media screen and (max-width:700px) {
     *{
@@ -422,10 +523,10 @@ div a{
         font-size: 13px;
         justify-content: center;
     }
-
     /* gallery */
     .parent{
         margin-top: 20px;
+        height: 400px;
     }
     .scroll-element img{
         height: 300px;
@@ -442,5 +543,18 @@ div a{
         min-width: 300px;
         border-radius: 10px;
         min-height: 300px;
+    }
+    .footer__nav > * {
+        flex: 1;
+    }
+    .nav__item--extra {
+        flex-grow: 1;
+        background-color: transparent;
+    }
+    .footer__logo{
+        font-size: 23px;
+    }
+    h1 .footer__logo{
+        font-size: 23px;
     }
 }
